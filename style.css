@@ -1,19 +1,42 @@
+.nav-style{
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    box-shadow: 0 2px 0 0 rgba(77, 75, 75, 0.151);
+    background-color: white;
+    opacity: 0.8;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
 img{
-width: 250PX;
+width: 250px;
 }
-.naver{
-    
-      margin-left: 65rem;  
+.sub-nav{
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
 }
+.link-nav{
+    margin:0 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.link-nav :hover{
+    color:#00b39b
+}
+
 .image{
-    width: 40PX;
-    margin-top: 3%;
+    width: 40px;
+    margin-top: 10px;
 }
 #titre{
-    margin-top: 2%;
+    margin-top: 15px;
     text-align: center;
+    color:#00b39b;
+    font-size: 30px;
+    font-weight: 300;
 }
   .articles{
        margin-top: 3%;
@@ -30,13 +53,8 @@ width: 250PX;
 .logo{
     text-align: center;
 }
-.sticky{
-    position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
-    background-color: white;
-}
+
+
 .green{
     background-color: #00ccb1;
 
@@ -46,25 +64,24 @@ width: 250PX;
 }
 .black{
     background-color: #1b2734;
-    color: white
+    color: white;
+  
 }
 .white{
     background-color: white;
     width: 5%;
-    height: 2REM;
+    height: 2rem;
 }
-.espace{
+.grid-container{
     margin-top: 13%;
     display: grid;
     grid-template-columns: 5% 30% 30% 30% 5%;
     grid-template-rows: 10%;
     grid-template-areas:"white green bleu black ";
 }
-.width{
- width: 25rem;
- height: 345px;
- border-radius: 5%;
-}
-.padding{
-    padding: 10PX
+.cards{
+    padding:10px;
+    width: 330px;
+    height: 365px;
+    border-radius: 10px;
 }
